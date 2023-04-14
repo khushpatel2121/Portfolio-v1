@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Nerko+One&family=Zen+Dots&display=swap');
+
+
+.p-title{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+
+.p-wrapper{
+    z-index: 2;
+    font-family: 'Zen Dots', cursive;
+}
+.p-cards{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 50px;
+    padding-left:8% ;
+    top: 230px;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+}
+
+
